@@ -6,7 +6,7 @@ from jar import Jar
 import pytest
 
 # Test for __init__
-def test_init_():
+def test_init():
     # Testing default initialization
     jar = Jar()
     assert jar.capacity == 12   # Check if the jar's maximum capacity is 12
