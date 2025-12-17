@@ -13,7 +13,7 @@ class Jar:                                  # Create a class Jar
         self._capacity = capacity           # Set the maximum number of cookies the jar can hold.
         self._size = 0                      # Start with an empty jar by setting size to 0.
 
-    # Method #2: __str__ should return a str with n 🍪
+    # Method #2: __str__ should return a str with n number of cookies
     def __str__(self):
         return "🍪" * self._size            # Return one cookie emoji per cookie in the jar.
 
